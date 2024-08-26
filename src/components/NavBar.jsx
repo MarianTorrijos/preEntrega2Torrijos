@@ -12,9 +12,10 @@ export const NavBar = () =>
    <Nav className="me-auto"> 
     <Nav.Link as={ NavLink } to= "/">Inicio</Nav.Link>
     <Nav.Link as={ NavLink } to= "/category/alimentos"> Alimentos</Nav.Link>
-    <Nav.Link as={ NavLink } to= "/category/bebidas"> Bebidas</Nav.Link>
+    <Nav.Link as={ NavLink } to= "/category/bebidas"> Bebidas</Nav.Link>   
    </Nav> 
+   <CartWidget/>
 </Container>
 </Navbar>
-  
+
 </>;
